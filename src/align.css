@@ -1,0 +1,18 @@
+
+.contenedor{
+    background-color: rgb(20, 195, 230);
+    display: grid;
+    height: 600px;
+    place-content: center;
+    align-items: center;
+    justify-items: end;
+    grid-auto-rows: 90px;
+    grid-template-columns: repeat(3, 90px);
+    grid-auto-flow: row;
+    gap: 20px;
+}
+
+.item{
+    border: solid 3px red;
+    font-size: 3rem;
+}
