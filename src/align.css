@@ -5,7 +5,7 @@
     height: 600px;
     place-content: center;
     align-items: center;
-    justify-items: end;
+    justify-items: end ;
     grid-auto-rows: 90px;
     grid-template-columns: repeat(3, 90px);
     grid-auto-flow: row;
